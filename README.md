@@ -26,7 +26,7 @@ If you find our work useful, please consider citing our paper as follows:
 ```
 @inproceedings{vasile2025continuous,
   title={Continuous Wrist Control on the Hannes Prosthesis: a Vision-based Shared Autonomy Framework},
-  author={Vasile, Federico and Maiettini, Elisa and Pasquale, Giulia and Florio, Astrid and Boccardo, Nicol{\`o} and Natale, Lorenzo},
+  author={Vasile, Federico and Maiettini, Elisa and Pasquale, Giulia and Boccardo, Nicol{\`o} and Natale, Lorenzo},
   booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)},
   pages={},
   year={2025},
