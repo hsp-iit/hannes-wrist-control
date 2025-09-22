@@ -1,0 +1,3 @@
+[submodule "Python/libs/visual-servoing"]
+	path = Python/libs/visual-servoing
+	url = https://github.com/hsp-iit/visual-servoing

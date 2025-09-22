@@ -1,0 +1,31 @@
+SOCKET:
+  ip_server: 127.0.0.1
+  ip_client: 127.0.0.1
+  port_server: 9000
+  port_client: 9001
+  block_size: 1024
+  header_num_bytes: 7
+  payloadLength_num_bytes: 4
+
+fps: 30
+
+sampleTime: 1.0
+
+COMMUNICATION:
+  server_elements_to_receive:   # server is where computation happens (i.e. visual servoing)
+    - vector3   # 3D translation of camera to object pose
+    - vector3   # 3D rotation of camera to object pose. rotation is expressed 
+                # in unity as euler angles (in degrees) in ZXY extrinsic.
+                # WARNING: poses into unity are left-handed. when a right-handed
+                # pose is imported in unity, its x axis is inverted
+    - float     # ps rotation angle (in degrees) considering the kinematic 
+                # chain defined in hannes-vservo-pspred/src/robots/spatial2r.py
+    - float     # fe rotation angle (in degrees) considering the kinematic 
+                # chain defined in hannes-vservo-pspred/src/robots/spatial2r.py
+    - image     # wrist camera image
+    - image     # external camera image
+  client_elements_to_receive:   # client is unity
+    - float     # ps velocity considering the kinematic chain defined
+                # in hannes-vservo-pspred/src/robots/spatial2r.py
+    - float     # fe velocity considering the kinematic chain defined
+                # in hannes-vservo-pspred/src/robots/spatial2r.py
