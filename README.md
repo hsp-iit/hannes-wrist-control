@@ -22,7 +22,7 @@
     <img src="teaser.gif">
   </p>
   <p align="center">
-    <i>(check out also our <a href="https://github.com/hsp-iit/dinov2det">DINOv2Det</a> for instance segmentation and the <a href="https://hsp-iit.github.io/hemisphere-dataset-generation/">simulation environment</a> for synthetic data generation)</i>
+    <i>(check out also our <a href="https://github.com/hsp-iit/dinoDet">dinoDet</a> for instance segmentation, the <a href="https://github.com/hsp-iit/hemisphere-dataset-generation">simulation environment</a> for synthetic data generation and the <a href="https://zenodo.org/records/17199591">iHannes dataset</a> used for evaluation)</i>
   </p>
 </p>
 
